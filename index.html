@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dress-Up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Truculenta' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/048f05b31b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <header class="sticky-top bg-white d-flex align-items-center justify-content-center p-0 shadow">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="nav_brand nav-link ms-5" href="index.html">Dress<span>-up</span></a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-hrefggle="collapse"
+                    data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                    aria-label="hrefggle navigation">
+                    <span class="fa fa-bars"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll ">
+                        <li class="nav-item">
+                            <a class="nav-link active " aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  " href="services.html">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+                <form class="d-flex">
+                    <input class="myform form-control" type="search" placeholder="Enter Keyword..." aria-label="Search">
+                    <button class="btn" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+
+            </nav>
+        </div>
+    </header>
+    <!-- carasoel -->
+    <div id="carouselExampleFade" class="myCarousel carousel slide carousel-fade   " data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/images/b1.jpg"
+                    class="d-block w-100 " alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/b2.jpg" class="d-block w-100 " alt="...">
+
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/b3.jpg" class="d-block w-100" alt="...">
+
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/b4.jpg" class="d-block w-100" alt="...">
+
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Serviceswe are offering -->
+    <div class="py-5 mt-5 ">
+        <div class="mycard mx-5 px-5">
+            <h1 class="mb-5" style="text-align:center">Services we're <span>offering</span></h1>
+            <div class="row row-cols-md-3 row-cols-xl-4  ">
+                <div class="col">
+                    <div class="card shadow-lg">
+                        <div class="card_img_container ">
+                            <img src="./assets/images/s1.jpg" class="card-img-top cushrefm-card-image" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-lg">
+                        <div class="card_img_container">
+                            <img src="./assets/images/s2.jpg" class="card-img-top custom-card-image" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-lg">
+                        <div class="card_img_container">
+                            <img src="./assets/images/s3.jpg" class="card-img-top custom-card-image" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-lg">
+                        <div class="card_img_container">
+                            <img src="./assets/images/s4.jpg" class="card-img-top custom-card-image" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service_link mt-5">
+                <a style="font-size:16px;text-align:center;text-decoration: none;border-radius:50px;
+                   background-color: red;padding:15px 30px;color: #fff;" href="services.html">View More Services</a>
+            </div>
+        </div>
+    </div>
+    <!--What do we do for our clients-->
+    <div class="shadow">
+        <div class="mycard mx-5 px-5 mt-5">
+            <h1 class="text-center my-5">What <span>we do</span> for our <span>Clients?</span></h1>
+            <div class="row row-cols-2 row-cols-md-3 row-cols-xl-3 pb-5">
+                <div class="col">
+                    <div class="card shadow-lg">
+                        <div class="card-body">
+                            <i class="fa-solid fa-user-tie fa-3x"></i>
+                            <p class="fs-5 fw-bold mt-4">Unique Design</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate sint facilis ea
+                                fugit, eligendi doloribus ab reiciendis enim neque minus.</p>
+                            <a>Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-lg">
+                        <div class="card-body">
+                            <i class="fa-solid fa-scissors fa-3x"></i>
+                            <p class="fs-5 fw-bold mt-4">Cushrefm tailoring</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate sint facilis ea
+                                fugit, eligendi doloribus ab reiciendis enim neque minus.</p>
+                            <a>Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card shadow-lg">
+                        <div class="card-body">
+                            <i class="fa-solid fa-person-booth fa-3x"></i>
+                            <p class="fs-5 fw-bold mt-4">Weeding Ceremony</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate sint facilis ea
+                                fugit, eligendi doloribus ab reiciendis enim neque minus.</p>
+                            <a>Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+    <!-- 25 years of experience -->
+    <div class="mycard mx-5 px-5 mt-5">
+        <div class="row row-cols-2 ">
+            <div class="col pe-5">
+                <h1>25 <span>years</span> of experience</h1>
+                <p class="mt-4 pe-5">At corrupti odit At iure facere, porro repellat officia quas, dolores magnam
+                    assumenda
+                    soluta odit
+                    harum
+                    maiores fugiat accusamus eos nulla. Iure voluptatibus explicabo officia.
+                    <br><br>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, corrupti odit? At iure facere, porro
+                    repellat officia quas, dolores magnam assumenda soluta odit harum.
+                </p>
+                <div class="mt-5">
+                    <a style="font-size:16px;font-weight:bold;text-decoration: none;border-radius:50px;
+                       background-color: red;padding:15px 30px;color: #fff;" href="about.html">Know More About Us</a>
+                </div>
+            </div>
+            <div class="col">
+                <img class="w-100" src="./assets/images/bg1.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="design shadow-lg d-flex py-5 justify-content-center mt-5">
+        <div class="container">
+            <div class="row row-cols-2 align-items-start ps-5 pt-5">
+                <div class="col">
+                    <h1 class="text-white">Your <span>Design</span>, We <span>Deliver</span></h1>
+                    <p class="text-white pt-3">Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore nisi esse
+                        quasi. Integer sit amet. Lorem ipsum dolor sit amet elit.</p>
+                </div>
+                <div class="col">
+                    <div class="service_link mt-5">
+                        <a style="font-size:16px;text-align:center;text-decoration: none;border-radius:50px;
+                           background-color: red;padding:15px 30px;color: #fff;" href="about.html">Book your
+                            appoinment</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- our works -->
+   
+    <!-- our Blog -->
+    <div class="py-5 mt-5 ">
+        <div class="mycard mx-5 px-5">
+            <h1 class="mb-5" style="text-align:center">Our <span>Blog Post</span></h1>
+            <div class="row row-cols-md-3 row-cols-xl-3 ">
+                <div class="col">
+                    <div class="card shadow-lg">
+                        <div class="card_img_container ">
+                            <img src="./assets/images/blog1.jpg" class="card-img-top cushrefm-card-image" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p>set a fashion trend</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-lg">
+                        <div class="card_img_container">
+                            <img src="./assets/images/blog2.jpg" class="card-img-top custom-card-image" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-lg">
+                        <div class="card_img_container">
+                            <img src="./assets/images/blog3.jpg" class="card-img-top custom-card-image" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="service_link mt-5">
+                <a style="font-size:16px;text-align:center;text-decoration: none;border-radius:50px;
+                   background-color: red;padding:15px 30px;color: #fff;" href="services.html">View More Services</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <footer class="footer_box d-flex py-5 mt-3 justify-content-center ">
+        <div class='container '>
+            <div class=" row rows-col-3  align-items-start ps-3">
+                <div class="col-4 nav pe-4 ">
+                    <a class='text-decoration-none ms-5'style="font-size:32px;color:white;font-weight:800" href="index.html">
+                            Dress<span>-up</span></a>
+                    <p class="mt-3 text-start ms-5">Nam libero tempore, cum soluta nobis est elige endi optio cumque
+                        nihil impedit
+                        quo minus
+                        id quod
+                        maxime placeat facere. Istee natuser iumedolo ladase.</p>
+                    <ul class="d-flex mt-3 ms-3">
+                        <li class="nav-item list-unstyled me-3"><i class="bi bi-facebook fs-5"></i></li>
+                        <li class="nav-item list-unstyled me-3"><i class="bi bi-instagram fs-5"></i></li>
+                        <li class="nav-item list-unstyled me-3"><i class="bi bi-twitter fs-5"></i></li>
+                        <li class="nav-item list-unstyled me-3"><i class="bi bi-linkedin fs-5"></i></li>
+                    </ul>
+                </div>
+                <div class="col-4 d-flex ">
+                    <div class="col-6 column">
+                        <h5>Quick-link</h5>
+                        <ul class=" nav flex-column mt-4 ">
+                            <li class="nav-item mb-2 "><a href="index.html" class="nav-link p-0  text-white">Home</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-white">About
+                                    Us</a></li>
+                            <li class="nav-item mb-2"><a href="services.html"
+                                    class="nav-link p-0 text-white">Services</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Blogs Post</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-white">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class=" col-6 column px-3">
+                        <h5>Contact Info</h5>
+                        <ul class="nav flex-column mt-4">
+                            <li class="nav-item mb-2">
+                                <p href="#" class="nav-link p-0 text-white">10001, 5th Avenue, #32841 block, USA</p>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">+12323203</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">info@example.com</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">www.example.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 px-5 ">
+                    <h5 class=' align-items-start'>Opening Hours</h5>
+                    <ul class="footer_last mt-4 list-unstyled">
+                        <li class="mb-1  ">Monday<span>9:00-18:00</span></li>
+                        <li class=" mb-1">Tuesday<span>9:00-18:00</span></li>
+                        <li class="mb-1 ">Wednesday<span>9:00-18:00</span></li>
+                        <li class=" mb-1">Thrusday<span>9:00-18:00</span></li>
+                        <li class=" mb-1">Friday<span>9:00-18:00</span></li>
+                        <li class=" mb-1">Saturday<span>9:00-18:00</span></li>
+                        <li class="mb-1 ">Sunday<span>Close</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="border-top mt-5 text-secondary">
+                    <p class="text-center text-white my-3">&copy; 2022 Company, Inc. All rights reserved. Designed by
+                        <br>Basant Rai
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
